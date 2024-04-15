@@ -21,7 +21,7 @@
     @routes
     @viteReactRefresh
     @vite(['resources/js/app.jsx', "resources/js/Pages/{$page['component']}.jsx"])
-    <script src="{{ mix('js/app.js')}}" defer></script>
+    <script src="{{ mix('js/app.jsx')}}" defer></script>
     @inertiaHead
 
 </head>

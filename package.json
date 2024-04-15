@@ -3,7 +3,8 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "vite build"
+        "build": "vite build",
+        "build:css": "npx tailwindcss -i ./resources/css/tailwind.css -o ./resources/css/app.css --watch"
     },
     "devDependencies": {
         "@headlessui/react": "^1.4.2",
@@ -20,6 +21,8 @@
         "vite": "^5.0.0"
     },
     "dependencies": {
-        "prop-types": "^15.8.1"
+        "flickity": "^3.0.0",
+        "prop-types": "^15.8.1",
+        "react-flickity-component": "^4.0.7"
     }
 }

@@ -83,7 +83,7 @@ class MovieTableSeeder extends Seeder
                 'slug' => 'forrest-gump',
                 'category' => 'Drama',
                 'video_url' => 'https://www.youtube.com/watch?v=bLvqoHBptjg',
-                'thumbnail' => 'https://m.media-amazon.com/images/I/51lRlKzJ7oL._AC_.jpg',
+                'thumbnail' => 'https://unsplash.com/photos/1ZkV7e9pXNQ',
                 'rating' => 8.8,
             ]
         ];
